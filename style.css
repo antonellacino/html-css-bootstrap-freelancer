@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sfondo_blu{
+  min-height: 100px;
+  background: #2C3E50;
+}
+.sfondo_verde{
+  background:#1ABC9C;
+}
+.center{
+  text-align: center;
+}
+
+/*REGOLE HEADER*/
+ul.nav a, a.navbar-brand{
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+a.navbar-brand{
+  font-size: 30px;
+}
+ul.nav a:hover{
+  background-color: none;
+  color: #1abc9c;
+}
+div.row img{
+  height: 200px;
+}
