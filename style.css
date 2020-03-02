@@ -1,3 +1,4 @@
+/*REGOLE GENERICHE*/
 *{
   margin: 0;
   padding: 0;
@@ -9,9 +10,16 @@
 }
 .sfondo_verde{
   background:#1ABC9C;
+  color:white;
 }
 .center{
   text-align: center;
+}
+.margin-bottom{
+  margin-bottom: 50px;
+}
+.text{
+  color: #2c3e50;
 }
 
 /*REGOLE HEADER*/
@@ -19,7 +27,6 @@ ul.nav a, a.navbar-brand{
   color: white;
   font-weight: bold;
   margin-top: 10px;
-
 }
 a.navbar-brand{
   font-size: 30px;
@@ -30,4 +37,21 @@ ul.nav a:hover{
 }
 div.row img{
   height: 200px;
+  margin: 50px 0;
+}
+h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+}
+#quadrati img{
+  height: 250px;
+  text-align: center;
+  border-radius: 3%;
+}
+.border{
+  border-bottom: 1px solid black;
+
 }
